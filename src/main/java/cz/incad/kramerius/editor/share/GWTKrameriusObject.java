@@ -17,6 +17,7 @@
 
 package cz.incad.kramerius.editor.share;
 
+import  cz.incad.kramerius.fedora.*;
 import com.google.gwt.core.client.GWT;
 import cz.incad.kramerius.editor.client.EditorConfiguration;
 import cz.incad.kramerius.editor.client.EditorConstants;

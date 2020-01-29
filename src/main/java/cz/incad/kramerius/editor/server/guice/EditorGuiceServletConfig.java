@@ -34,7 +34,7 @@ public class EditorGuiceServletConfig extends GuiceServletContextListener {
 
     @Override
     protected Injector getInjector() {
-        return Guice.createInjector(new SolrModule(), new ResourceIndexModule(), new EditorGuiceModule(), new ServletModule(),new NullStatisticsModule());
+        return Guice.createInjector(new SolrModule(), new RepoModule(), new ResourceIndexModule(), new EditorGuiceModule(), new ServletModule(),new NullStatisticsModule());
     }
 
 }
