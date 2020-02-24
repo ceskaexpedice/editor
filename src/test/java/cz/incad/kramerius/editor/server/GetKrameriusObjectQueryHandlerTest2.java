@@ -14,7 +14,7 @@ import org.junit.Assert;
 
 import cz.incad.kramerius.utils.IOUtils;
 
-public class GetKrameriusObjectQueryHandlerTest2 extends TestCase {
+public class GetKrameriusObjectQueryHandlerTest2 {//extends TestCase {
     
     private String readString(String param) throws IOException {
         InputStream is = PropertiesFromModelsTest.class.getResourceAsStream(param);
